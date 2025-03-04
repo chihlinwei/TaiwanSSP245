@@ -1,0 +1,10 @@
+"0","a2 <- ncvar_get(m2, ""ph"") 
+a2 <- ncvar_get(m2, ""ph"") 
+# Seawater pH from 2021 to 2030
+m3 <- nc_open(""C:/Users/user/Downloads/ph_Oyr_NorESM2-MM_ssp245_r1i1p1f1_gr_2021-2030.nc"") 
+"
+"1","Error in R_nc4_open: No such file or directory
+"
+"2","錯誤發生在 nc_open(""C:/Users/user/Downloads/ph_Oyr_NorESM2-MM_ssp245_r1i1p1f1_gr_2021-2030.nc"")： 
+  Error in nc_open trying to open file C:/Users/user/Downloads/ph_Oyr_NorESM2-MM_ssp245_r1i1p1f1_gr_2021-2030.nc (return_on_error= FALSE )
+"
